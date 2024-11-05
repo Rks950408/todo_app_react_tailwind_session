@@ -17,12 +17,12 @@ const AddTaskForm = ({ addTask }) => {
         type="text"
         value={taskInput}
         onChange={(e) => setTaskInput(e.target.value)}
-        className="border p-2 w-full"
+        className="border p-2 w-full rounded-md"
         placeholder="Add a new task"
       />
       <button
         type="submit"
-        className="bg-blue-500 text-white py-2 px-4 mt-2"
+        className="bg-blue-500 text-white py-2 px-4 mt-2 rounded-md"
       >
         Add Task
       </button>

@@ -2,7 +2,7 @@ import React from 'react';
 
 const TaskItem = ({ task, deleteTask }) => {
   return (
-    <li className="flex justify-between items-center p-2 border-b">
+    <li className="flex justify-between items-center p-2 border-b rounded-md">
       <span>{task.name}</span>
       <button
         onClick={() => deleteTask(task.id)}
